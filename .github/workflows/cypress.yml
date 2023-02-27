@@ -11,4 +11,5 @@ jobs:
       - name: Cypress run
         id: cypress
         uses: cypress-io/github-action@v5
-        with: chrome
+        with:
+          browser: chrome
