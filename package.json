@@ -1,0 +1,25 @@
+{
+  "name": "npx",
+  "version": "1.0.0",
+  "description": "Projeto de estudo do cypress na pipeline do github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallrandal/cypress-github-actions.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Wallace Randal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallrandal/cypress-github-actions/issues"
+  },
+  "homepage": "https://github.com/wallrandal/cypress-github-actions#readme",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  }
+}
